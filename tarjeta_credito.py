@@ -19,7 +19,7 @@ class TarjetaCredito:
         return self
     
     def mostrar_info_tarjeta(self):
-        print(f"Saldo a pagar: ${self.saldo_pagar}")
+        print(f"Saldo a pagar: $ {self.saldo_pagar}")
         print(f"Límite de crédito: ${self.limite_credito}")
         print(f"Interés: {self.intereses:.2f}%")
         return self
